@@ -44,7 +44,7 @@ const JSONauthors = JSON.stringify(objAuthors);
 
 fs.writeFileSync(path.resolve(__dirname, 'books.json'), JSONauthors);
 
-// Написать удачно на ts не получилось, превый день с ним работаю, 
+// Написать удачно на ts не получилось, первый день с ним работаю, 
 // А вот тоже самое на js
 
 const fs = require('fs');
